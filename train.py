@@ -26,6 +26,7 @@ runs/detect/pothole_detector/weights/best.pt
 
 Copy best.pt to:
 models/best.pt
+
 """
 
 from ultralytics import YOLO
