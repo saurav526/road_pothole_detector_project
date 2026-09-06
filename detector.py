@@ -101,7 +101,7 @@ class PotholeDetector:
             if bw < 30 or bh < 20:
                 continue
 
-            # Approximate confidence based on region characteristics.
+            # Approximate confidence based on region characteristics.  
             rectangularity = area / max(bw * bh, 1)
             conf = min(0.90, max(0.20, rectangularity))
 
