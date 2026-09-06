@@ -11,7 +11,7 @@ from PIL import Image
 from detector import PotholeDetector
 
 st.set_page_config(
-    page_title="Smart Road Pothole Detector",
+    page_title=" 🛣️Smart Road Pothole Detector ",
     page_icon="🚧",
     layout="wide",
 )
