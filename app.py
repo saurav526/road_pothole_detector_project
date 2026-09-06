@@ -224,7 +224,7 @@ else:
                     file_name="pothole_detection_result.mp4",
                     mime="video/mp4",
                 )
-
+# use to analyze the detection results
             if records:
                 df = pd.DataFrame(records)
                 st.subheader("📊 Detection Analytics")
