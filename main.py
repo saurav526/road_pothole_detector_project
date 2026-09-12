@@ -31,14 +31,3 @@ try:
     data = response.json()
     print(data)
 
-except requests.exceptions.Timeout:
-    print("Request timed out")
-
-except requests.exceptions.ConnectionError:
-    print("Connection error")
-
-except requests.exceptions.HTTPError:
-    print("API request failed")
-
-except Exception as e:
-    print("Error:", e)
