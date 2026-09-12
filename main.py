@@ -9,13 +9,6 @@ params = {
     "current": "temperature_2m,wind_speed_10m"
 }
 
-response = requests.get(url, params=params)
-
-data = response.json()
-print(data)
-
-df = pd.DataFrame([data["current"]])
-
 print(df)
 
 print(data["latitude"])
